@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkControlUWP", "BlinkControlUWP\BlinkControlUWP.csproj", "{D5C4779D-C7E9-4565-A4D7-3879AD38FA34}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaspberryPi", "RaspberryPi", "{56E507F8-684F-4945-861E-8135107E0F34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceController", "ServiceController", "{0BAABC6C-DAEA-4467-88C5-78A9E9AC8B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlinkControl", "AzureBlinkControl\AzureBlinkControl.csproj", "{299882F1-2B1A-4FD2-97C8-5F9395A89288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,9 +39,31 @@ Global
 		{D5C4779D-C7E9-4565-A4D7-3879AD38FA34}.Release|x86.ActiveCfg = Release|x86
 		{D5C4779D-C7E9-4565-A4D7-3879AD38FA34}.Release|x86.Build.0 = Release|x86
 		{D5C4779D-C7E9-4565-A4D7-3879AD38FA34}.Release|x86.Deploy.0 = Release|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|ARM.ActiveCfg = Debug|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|ARM.Build.0 = Debug|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|ARM.Deploy.0 = Debug|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x64.ActiveCfg = Debug|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x64.Build.0 = Debug|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x64.Deploy.0 = Debug|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x86.ActiveCfg = Debug|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x86.Build.0 = Debug|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Debug|x86.Deploy.0 = Debug|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|ARM.ActiveCfg = Release|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|ARM.Build.0 = Release|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|ARM.Deploy.0 = Release|ARM
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x64.ActiveCfg = Release|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x64.Build.0 = Release|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x64.Deploy.0 = Release|x64
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x86.ActiveCfg = Release|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x86.Build.0 = Release|x86
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5C4779D-C7E9-4565-A4D7-3879AD38FA34} = {0BAABC6C-DAEA-4467-88C5-78A9E9AC8B5B}
+		{299882F1-2B1A-4FD2-97C8-5F9395A89288} = {56E507F8-684F-4945-861E-8135107E0F34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DAC2560-2B40-47EC-A6B2-D9E958B4D950}
